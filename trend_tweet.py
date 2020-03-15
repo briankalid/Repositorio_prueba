@@ -19,10 +19,10 @@ api = twitter.Twitter(auth=auth)
 # We get trends in Mexico and print them.
 mx_trends = api.trends.place(_id=MX_WOE_ID)
 print("Trending in Mexico:")
-tendencias=[]
-for elemento in mx_trends:
-    for dic in elemento["trends"]:
-        tendencias.append(dic["name"])
+trends=[]
+for trend_m in mx_trends:
+    for dic in trend_m["trends"]:
+        trends.append(dic["name"])
         print(dic["name"])
 
 
@@ -34,8 +34,8 @@ api = tweepy.API(auth)
 
 # We collect today's popular tweets for each trend in Mexico and print the tweets
 date_since = date.today()
-for tendencia in tendencias:
-    print("---------------------",tendencia,"------------------------------")
-    tweets=tweepy.Cursor(api.search,q=tendencia,lang="es",result_type="popular",since=date_since).items()
+for trend in trends:
+    print("---------------------",trend,"------------------------------")
+    tweets=tweepy.Cursor(api.search,q=trend,lang="es",result_type="popular",since=date_since).items()
     for tweet in tweets:
         print(tweet.text,tweet.created_at,"Hashtags:",tweet.entities["hashtags"])
