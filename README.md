@@ -35,4 +35,4 @@ Our data source is the Twitter API, from there we are going to obtain the necess
 
 ## Instructions, use and tests.
 Here we are going to put all the instrucutions for each part of the development (practices) [project](Instructions.md).
-For our first test we have the courrent trends of the day ![test trends](Resources/trends_test.png)
+For our first test we have the courrent trends of the day  ![test trends](Resources/trends_test.jpeg)
