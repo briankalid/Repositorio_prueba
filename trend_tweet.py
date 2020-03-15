@@ -18,9 +18,7 @@ api = twitter.Twitter(auth=auth)
 
 # We get trends in Mexico and print
 mx_trends = api.trends.place(_id=MX_WOE_ID)
-
 print("Trending in Mexico:")
-
 tendencias=[]
 for elemento in mx_trends:
     for dic in elemento["trends"]:
