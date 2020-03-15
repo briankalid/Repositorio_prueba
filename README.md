@@ -30,4 +30,4 @@ Given the most popular trends we are going to identify the top ones and from the
 - Visualization: Matplotlib and HTML5.
 
 ## Data source.
-Our data source is the Twitter API, from there we are going to obtain the necessary data form the daily trends.
+Our data source is the Twitter API, from there we are going to obtain the necessary data form the daily trends and tweets.
