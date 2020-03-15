@@ -16,7 +16,7 @@ MX_WOE_ID = 23424900
 auth = twitter.oauth.OAuth(access_token,access_secret,consumer_key,consumer_secret)
 api = twitter.Twitter(auth=auth)
 
-# We get trends in Mexico and print
+# We get trends in Mexico and print them.
 mx_trends = api.trends.place(_id=MX_WOE_ID)
 print("Trending in Mexico:")
 tendencias=[]
@@ -32,7 +32,7 @@ auth.set_access_token(access_token,access_secret)
 api = tweepy.API(auth)
 
 
-# We collect today's popular tweets for each trend in Mexico and print
+# We collect today's popular tweets for each trend in Mexico and print the tweets
 date_since = date.today()
 for tendencia in tendencias:
     print("---------------------",tendencia,"------------------------------")
