@@ -6,7 +6,7 @@
   - 2. Write: pip3 install tweepy
   - 3. Write: pip3 install json
   - 4. Write: sudo apt-get install nano
-- Download this project
+- Download this [project](trend_tweet.py)
 ### Use
 - Open a terminal
   - 1. Write: nano trend_tweet.py
@@ -14,4 +14,3 @@
   - 3. Save and close
   - 4. Write: python3 trend_tweet.py
   - 5. ENTER
-[Contribution guidelines for this project](readme.md)
