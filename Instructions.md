@@ -7,4 +7,4 @@
   - 3. Write: pip3 install json
 - Download this project
 - Open a terminal
-  _1. Write: python3
+  _ 1. Write: python3
