@@ -40,4 +40,5 @@ For our first test we have the courrent trends of the day.<br/>
 ![test trends](Resources/trends_test.jpeg) <br/>
 
 Next we have the test for obtaining the most popular tweets given the trend.<br/> 
+<br/>
 ![tweets](Resources/tweets_test.jpeg)
