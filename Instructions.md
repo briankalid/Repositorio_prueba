@@ -4,8 +4,7 @@
 - Open a terminal
   - 1. Write: pip3 install twitter
   - 2. Write: pip3 install tweepy
-  - 3. Write: pip3 install json
-  - 4. Write: sudo apt-get install nano
+  - 3. Write: sudo apt-get install nano
 - Download this [project](trend_tweet.py)
 ### Use
 - Open a terminal
