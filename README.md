@@ -1,4 +1,4 @@
-# Analyzing
+# Analyzing Twitter trends and accounts.
 ## Report.
 ###### Distributed Computing project.
 
