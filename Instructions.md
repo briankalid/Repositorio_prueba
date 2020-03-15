@@ -14,3 +14,4 @@
   - 3. Save and close
   - 4. Write: python3 trend_tweet.py
   - 5. ENTER
+[Contribution guidelines for this project](readme.md)
