@@ -32,7 +32,7 @@ auth.set_access_token(access_token,access_secret)
 api = tweepy.API(auth)
 
 
-# We collect today's popular tweets for each trend and print
+# We collect today's popular tweets for each trend in Mexico and print
 date_since = date.today()
 for tendencia in tendencias:
     print("---------------------",tendencia,"------------------------------")
