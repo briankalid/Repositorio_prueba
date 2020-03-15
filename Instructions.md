@@ -1,5 +1,5 @@
 # Instructions
-## Install and use
+## Installation and use. (First practice)
 ### Install
 - Open a terminal.
   - 1. Write: pip3 install twitter.
