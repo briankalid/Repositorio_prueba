@@ -36,7 +36,7 @@ Given the most popular trends we are going to identify the top ones and from the
 ## Data source.
 Our data source is the Twitter API, from there we are going to obtain the necessary data form the daily trends and tweets.
 
-## Instructions, use and tests.
+## Instructions, use and tests (first practice).
 Here we are going to put all the instrucutions for each part of the development (practices) [Instructions](Instructions.md).<br/>
 For our first test we have the courrent trends of the day.<br/> 
 <br/>
