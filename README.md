@@ -38,10 +38,3 @@ Our data source is the Twitter API, from there we are going to obtain the necess
 
 ## Instructions, use and tests.
 Here we are going to put all the instrucutions for each part of the development (practices) [Instructions](Instructions.md).<br/>
-For our first test we have the courrent trends of the day.<br/> 
-<br/>
-![test trends](Resources/trends_test.jpeg) <br/>
-
-Next we have the test for obtaining the most popular tweets given the trend.<br/> 
-<br/>
-![tweets](Resources/tweets_test.jpeg)
