@@ -1,6 +1,7 @@
 # Instructions
 ## Installation and use.
 ### Install requirements
+#### REquiere requires python 3(tested on python 3.8)
 - Open a terminal.
   - 1. Write: sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev or pacman -S base-devel(if you use arch).
   - 2. Write: pip3 install twitter.
@@ -13,9 +14,13 @@
   - 9. Write: sudo apt-get install nano.
 - Download this [project](trend_tweet.py).
 ### Use
-- Open a terminal.
-  - 1. Write: nano trend_tweet.py
-  - 2. Insert your keys.
+- Open a terminal into folder project.
+  - 1. Write: nano secret.py.
+  - 2. Insert your keys inside.
+  - 2. Write: nano db.json.
+  - 2. Insert your database keys inside.
   - 3. Save and close.
-  - 4. Write: python3 trend_tweet.py
-  - 5. ENTER.
+  #### To update data and create graphics:
+    - 1. Write: python main.py.
+  #### To deploy web service in localhost:
+    - 1. Write: python web.py
