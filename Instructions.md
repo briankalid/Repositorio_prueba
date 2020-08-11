@@ -1,5 +1,5 @@
 # Instructions
-## Installation and use. (First practice)
+## Installation and use.
 ### Install requirements
 - Open a terminal.
   - 1. Write: sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev or pacman -S base-devel(if you use arch).
