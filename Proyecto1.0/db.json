@@ -1,0 +1,1 @@
+{"user": <your_user_database>, "password": <your_password_database>, "host": <host_of_your_database>, "database": <name_of_your_database>, "raise_on_warnings": true}
