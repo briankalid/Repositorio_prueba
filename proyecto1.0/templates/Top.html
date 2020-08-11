@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+<div class="callout primary">
+  <div class="row column text-center">
+    <h1>Top</h1>
+  </div>
+</div>
+<div class="row" id="content">
+  <div class="medium-8 columns">
+    <div class="blog-post">
+      {% for url in top %}
+      <blockquote class="twitter-tweet"><p lang="es" dir="ltr" ><a href={{url}}
+      ></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      {% endfor %}
+    </div>
+  </div>
+
+
+{% endblock %}

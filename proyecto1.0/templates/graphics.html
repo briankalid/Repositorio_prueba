@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+    <div class="callout primary">
+      <div class="row column text-center">
+        <h1>Graphics</h1>
+      </div>
+    </div>
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <div class="blog-post">
+          <h3>Publication Favourite <small>{{today}}</small></h3>
+          <img src="{{url_for('static',filename='img/fav.png')}}">
+
+        </div>
+        <br><br><br>
+        <div class="blog-post">
+          <h3>Publication retweets <small>{{today}}</small></h3>
+          <img src="{{url_for('static',filename='img/retweets.png')}}">
+        </div>
+        <br><br><br>
+        <div class="blog-post">
+          <h3>Comparative <small>{{today}}</small></h3>
+          <img src="{{url_for('static',filename='img/sources.png')}}">
+        </div>
+        <br><br><br>
+        <div class="blog-post">
+          <h3>Comparative <small>{{today}}</small></h3>
+          <img src="{{url_for('static',filename='img/favsandrts.png')}}">
+        </div>
+        <br><br><br>
+        <div class="blog-post">
+          <h3>Followers <small>{{today}}</small></h3>
+          <img src="{{url_for('static',filename='img/follow.png')}}">
+        </div>
+        </div>
+{% endblock %}
