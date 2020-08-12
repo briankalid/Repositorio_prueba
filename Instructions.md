@@ -1,7 +1,7 @@
 # Instructions
 ## Installation and use.
 ### Install requirements
-#### REquiere requires python 3(tested on python 3.8)
+#### Requires python 3(tested on python 3.8)
 - Open a terminal.
   - 1. Write: sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev or pacman -S base-devel(if you use arch).
   - 2. Write: pip3 install twitter.
