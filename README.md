@@ -40,15 +40,15 @@ Our data source is the Twitter API, from there we are going to obtain the necess
 ### Install requirements
 #### Requires python 3(tested on python 3.8)
 - Open a terminal.
-  -  Write: `sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev` or `pacman -S base-devel` (if you use arch)
-  -  Write: `pip3 install twitter`
-  -  Write: pip3 install tweepy.
-  -  Write: pip3 install flask.
-  -  Write: pip3 install flask_mysqldb.
-  -  Write: pip3 install numpy
-  -  Write: pip3 install pandas.
-  -  Write: pip3 install matplotlib
-  -  Write: sudo apt-get install nano.
+  -  `sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev` or `pacman -S base-devel` (if you use arch).
+  -  `pip3 install twitter`
+  -  `pip3 install tweepy`
+  -  `pip3 install flask`
+  -  `pip3 install flask_mysqldb`
+  -  `pip3 install numpy`
+  -  `pip3 install pandas`
+  -  `pip3 install matplotlib`
+  -  `sudo apt-get install nano`
 - Download this [project](trend_tweet.py).
 ### Use
 - Open a terminal into folder project.
