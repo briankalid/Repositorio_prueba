@@ -8,7 +8,7 @@ Professor: Víctor De la Luz.
 
 ## Project definition.
 As our project of distributed computing we are going to work with Twitter to obtain data from the daily trends.<br/>
-We want to study the type of tweets that the users are obtaining the news/infomation from, also if the number of followers is a determinant factor for a tweet to go viral. As well we want to study not only the news but the trends in general. Principally we want to study the tweets themselves and see if there is a predominant characteristic of the tweet to go viral. `<hola>` element here instead.
+We want to study the type of tweets that the users are obtaining the news/infomation from, also if the number of followers is a determinant factor for a tweet to go viral. As well we want to study not only the news but the trends in general. Principally we want to study the tweets themselves and see if there is a predominant characteristic of the tweet to go viral.
 <br/><br/>
 Given the most popular trends we are going to identify the top ones and from them we will locate the most popular tweet or tweets based on the impressions (retweets and likes), so we can know the amount of impressions are nedeed for a tweet to go viral or ve catalogued as popular, we want to know if there is a pattern in the number of impressions and the type of account the has the most popular tweet. Appart from the impressions we also want to know the amount of followers that the account of the tweet has, and see if there is a pattern in the number of followers or if it does not matter at all. Aditionally we want to know the differnt sources of the tweets where they have been tweeted from and from it see if the most popular tweets are coming from desktop computers or mobile devices.<br/>
 
@@ -40,8 +40,8 @@ Our data source is the Twitter API, from there we are going to obtain the necess
 ### Install requirements
 #### Requires python 3(tested on python 3.8)
 - Open a terminal.
-  -  Write: sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev or pacman -S base-devel(if you use arch).
-  -  Write: pip3 install twitter.
+  -  Write: <sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev> or<pacman -S base-devel(if you use arch)>
+  -  Write: <pip3 install twitter>
   -  Write: pip3 install tweepy.
   -  Write: pip3 install flask.
   -  Write: pip3 install flask_mysqldb.
