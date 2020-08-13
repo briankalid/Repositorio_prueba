@@ -40,7 +40,6 @@ Our data source is the Twitter API, from there we are going to obtain the necess
 ### Install requirements
 #### Requires python 3(tested on python 3.8)
 - Open a terminal. 
-  1. Libraries.
   -  `sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev` or `pacman -S base-devel` (if you use arch).
   -  `pip3 install twitter`
   -  `pip3 install tweepy`
@@ -49,10 +48,9 @@ Our data source is the Twitter API, from there we are going to obtain the necess
   -  `pip3 install pandas`
   -  `pip3 install matplotlib`
   -  `sudo apt-get install nano`
-  2. MySQL
   -  `pip3 install flask_mysqldb`
   -  `pip3 install mysql-connector`
-### Use
+### Setup
 - Open a terminal into folder project.
   -  `nano secret.py`
   -  Insert your keys inside.
