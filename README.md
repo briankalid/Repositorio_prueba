@@ -37,7 +37,6 @@ Given the most popular trends we are going to identify the top ones and from the
 Our data source is the Twitter API, from there we are going to obtain the necessary data form the daily trends and tweets.
 
 ## Instructions, use and tests.
-## Installation and use.
 ### Install requirements
 #### Requires python 3(tested on python 3.8)
 - Open a terminal.
