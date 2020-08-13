@@ -21,10 +21,9 @@ Given the most popular trends we are going to identify the top ones and from the
   - Make this process automatically, and show it in the web.
   
 ## Software tools
-  - Python 3.
+  - Python3.
   - Twitter API.
   - http server.
-  - Text editor.
   - Libraries: tweepy and from this library we also use OAuthHandler and Stream. From tweepy.streaming we used StreamListener the other libraries are twitter, json, datetime, pandas, flask, mysql connectors and matplotlib.
   
 ## General system architecture.
@@ -52,12 +51,12 @@ Our data source is the Twitter API, from there we are going to obtain the necess
 - Download this [project](trend_tweet.py).
 ### Use
 - Open a terminal into folder project.
-  -  Write: nano secret.py.
+  -  `nano secret.py`
   -  Insert your keys inside.
-  -  Write: nano db.json.
+  -  `nano db.json.`
   -  Insert your database keys inside.
   -  Save and close.
   #### To update data and create graphics:
-    - 1. Run: python main.py.
+    -  Run: `python3 main.py`
   #### To deploy web service in localhost:
-    - 1. Run: python web.py
+    -  Run: `python3 web.py`
