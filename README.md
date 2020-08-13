@@ -18,7 +18,7 @@ Given the most popular trends we are going to identify the top ones and from the
   - Get the most popular tweet or tweets, based mainly in the amount of impressions.
   - Get information from the top tweets.
   - Make the graphs based on the characteristics of the top tweets. 
-  - Make this process automatically, and store it in the web.
+  - Make this process automatically, and show it in the web.
   
 ## Software tools
   - Python 3.
