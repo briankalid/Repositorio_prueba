@@ -1,18 +1,18 @@
 def consumer_key():
-    return("") #Your consumer key
+    return("")
 def consumer_secret():
-    return("") #Your consumer secret key
+    return("")
 def access_token():
-    return("") #Your access Token
+    return("")
 def access_secret():
-    return("") #Your access secret key
+    return("")
 def host_db():
-    return("") #Host of your database
+    return("")
 def user_db():
-    return("") #User of your database
+    return("")
 def password_db():
-    return ("") #Password of your database
+    return ("")
 def name_db():
-    return ("") #Name od your databse
+    return ("")
 def app_secret_key():
-    return('') #Secret key for your web app
+    return('')

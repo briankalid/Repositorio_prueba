@@ -1,3 +1,5 @@
+from mysql.connector import errorcode
+import mysql.connector
 import json
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -8,7 +10,6 @@ import update_local_data
 
 seguidores=[]
 verificado=[]
-# fecha=[]
 num_retweets=[]
 num_favorites=[]
 idd=[]
@@ -16,24 +17,52 @@ handler=[]
 sources=[]
 
 
+def query_data_base():
+    with open('db.json') as json_file:
+        config = json.load(json_file)
+        json_file.close()
+
+    try:
+        cnx = mysql.connector.connect(**config)
+        print('\n'+'\033[0;32m'+'Conexion a la base de datos exitosa'+'\033[0;m')
+        cursor = cnx.cursor()
+        try:
+            for trend in trending:
+                query = "SELECT * FROM publications WHERE trend = '%s'" %trend
+                cursor.execute(query)
+                data = cursor.fetchall()
+                publications.append(data)
+        except (mysql.connector.Error,mysql.connector.Warning) as e:
+            print('\033[0;31m'+str(e)+'\n'+'\033[0;m')
+            pass
+
+        cnx.close()
+        cursor.close()
+
+    except mysql.connector.Error as err:
+        if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
+            print("Something is wrong with your user name or password")
+        elif err.errno == errorcode.ER_BAD_DB_ERROR:
+            print("Database does not exist")
+        else:
+            print(err)
+
+
 def create_urls(user,id_u):
     return("https://twitter.com/"+user+"/status/"+id_u)
 
-def main(trending,publications):
+def main():
     #Here we get the data that we need from the json file
 
-    for trend in range(len(trending)):
-        for publication in publications[trend]:
-            # dic=json.dumps(publication)
-            idd.append(publication.id_str)
-            num_retweets.append(publication.retweet_count)
-            num_favorites.append(publication.favorite_count)
-            # fecha.append(dic.get("created_at"))
-            # usuario=dic.get("user")
-            handler.append(publication.user.screen_name)
-            seguidores.append(publication.user.followers_count)
-            verificado.append(publication.user.verified)
-            sources.append(publication.source)
+    for publication in publications:
+        if len(publication)>0:
+            idd.append(publication[0][0])
+            num_retweets.append(publication[0][6])
+            num_favorites.append(publication[0][7])
+            handler.append(publication[0][2])
+            seguidores.append(publication[0][4])
+            verificado.append(publication[0][5])
+            sources.append(publication[0][8])
 
     print(sources)
 
@@ -235,3 +264,14 @@ def create_graphic_follow():
     plt.legend()
     plt.savefig('static/img/follow.png')
     plt.close()
+
+
+publications=[]
+trending = []
+with open('trending.dat','r') as file:
+    for line in file:
+        trending.append(line[:-1])
+    file.close()
+
+query_data_base()
+main()
