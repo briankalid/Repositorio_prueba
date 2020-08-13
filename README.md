@@ -23,6 +23,7 @@ Given the most popular trends we are going to identify the top ones and from the
 ## Software tools
   - Python3.
   - Twitter API.
+  - PHPMyAdmin for the MySQL database.
   - http server.
   - Libraries: tweepy and from this library we also use OAuthHandler and Stream. From tweepy.streaming we used StreamListener the other libraries are twitter, json, datetime, pandas, flask, mysql connectors and matplotlib.
   
@@ -48,7 +49,6 @@ Our data source is the Twitter API, from there we are going to obtain the necess
   -  `pip3 install pandas`
   -  `pip3 install matplotlib`
   -  `sudo apt-get install nano`
-- Download this [project](trend_tweet.py).
 ### Use
 - Open a terminal into folder project.
   -  `nano secret.py`
