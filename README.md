@@ -57,7 +57,7 @@ Our data source is the Twitter API, from there we are going to obtain the necess
   -  `nano db.json.`
   -  Insert your database keys inside.
   -  Save and close.
-  - import [database](Proyecto1.0/database/)
+  - import [database](Proyecto1.0/database/)(Proyecto1.0/database/)
   #### To update data and create graphics:
     -  Run: `python3 main.py`
   #### To deploy web service in localhost:
