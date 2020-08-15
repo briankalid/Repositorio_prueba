@@ -40,7 +40,7 @@ Our data source is the Twitter API, from there we are going to obtain the necess
 ### Install requirements
 #### Requires python 3(tested on python 3.8)
 - Open a terminal. 
-  -  `sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev` or `pacman -S base-devel` (if you use arch).
+  -  `sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev`.
   -  `pip3 install twitter`
   -  `pip3 install tweepy`
   -  `pip3 install flask`
