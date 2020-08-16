@@ -38,7 +38,7 @@ Our data source is the Twitter API, from there we are going to obtain the necess
 
 ## Instructions and use.
 ### Install requirements
-#### Requires python 3(tested on python 3.8)
+#### Requires python3 (tested on python 3.8)
 - Open a terminal. 
   -  `sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev`.
   -  `pip3 install twitter`
@@ -70,4 +70,4 @@ Our data source is the Twitter API, from there we are going to obtain the necess
   - `/.run.sh -u` this module update the database.
   - `/.run.sh -p` this module processes the data and makes the graphics.
   #### To deploy web service in localhost:
-    -  Run: `python3 web.py`
+    -  Run `python3 web.py`
