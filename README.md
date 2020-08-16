@@ -23,7 +23,7 @@ Given the most popular trends we are going to identify the top ones and from the
 ## Software tools
   - Python3.
   - Twitter API.
-  - PHPMyAdmin for the MySQL database. (we use remote mysql but you could use local database)
+  - PHPMyAdmin for the MySQL database (we use remote mysql but you could use local database).
   - Flask for web service.
   - Libraries: tweepy and from this library we also use OAuthHandler and Cursor. From tweepy.cursor we used api.search the other libraries are twitter, json, pickle, datetime, pandas, flask, mysql connectors and matplotlib.
   
