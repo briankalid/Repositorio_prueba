@@ -1,5 +1,5 @@
 # Analyzing trending tweets and where they came from.
-## Report.
+
 ###### Distributed Computing project.
 
 Brian Kalid García Olivo and Fernando Nateras Bautista.<br/>
