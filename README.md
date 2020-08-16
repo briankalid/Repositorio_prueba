@@ -59,6 +59,9 @@ Our data source is the Twitter API, from there we are going to obtain the necess
   -  Save and close.
 - Database
   - import [database](Proyecto1.0/database/)(this is in Proyecto1.0/database/), we are going to work with the table "publications"<br/>
+  - To import database:
+  You need have a database created
+  `mysql -u username -p mydatabase < RouzZmPKSN.sql`
   **Table structure**<br/>
   ![databasestructure](Resources/db.JPG)
   #### Use.
