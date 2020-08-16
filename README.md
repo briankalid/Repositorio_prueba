@@ -63,7 +63,7 @@ Our data source is the Twitter API, from there we are going to obtain the necess
   ![databasestructure](Resources/db.JPG)
   #### Use.
   Once you are in the correct directory ("Proyecto1.0") you just have to run it.
-  - `/.run.sh -a` to run all modules.
+  - `/.run.sh -a` to run all modules.<br/>
   Or you can run the 3 modules by separate.
   - `/.run.sh -o` this module gets the data.
   - `/.run.sh -u` this module update the database.
