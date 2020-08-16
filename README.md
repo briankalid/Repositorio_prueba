@@ -69,8 +69,10 @@ Our data source is the Twitter API, from there we are going to obtain the necess
   - `/.run.sh -o` this module gets the data.
   - `/.run.sh -u` this module update the database.
   - `/.run.sh -p` this module processes the data and makes the graphics.
+
+
+  ![running](Resources/time.png)
+  
   #### To deploy web service in localhost:
   Once all processes are finished.
     -  Run `python3 web.py`
-
-  ![running](Resources/time.png)
