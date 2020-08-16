@@ -8,10 +8,10 @@ do
   python3 update_database.py
   python3 processing.py;;
 
-  -od|--data_obtain)
+  -o|--data_obtain)
   python3 trend_tweet.py;;
 
-  -udb|--update_database)
+  -u|--update_database)
   python3 update_database.py;;
 
   -p|--processing)
