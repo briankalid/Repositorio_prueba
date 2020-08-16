@@ -58,10 +58,10 @@ Our data source is the Twitter API, from there we are going to obtain the necess
   -  Insert your database keys inside.
   -  Save and close.
 - Database
-  - import [database](Proyecto1.0/database/)(this is in Proyecto1.0/database/), we are going to work with the table "publications"<br/>
-  - To import database:<br>
+  - import [database](Proyecto1.0/database/)(this is in Proyecto1.0/database/), we are going to work with the table "publications"<br/><br>
+  - To import database:<br><br>
   You need have a database created<br>
-  `mysql -u username -p mydatabase < RouzZmPKSN.sql`<br>
+  `mysql -u username -p mydatabase < RouzZmPKSN.sql`<br><br>
   **Table structure**<br/>
   ![databasestructure](Resources/db.JPG)
   #### Use.
