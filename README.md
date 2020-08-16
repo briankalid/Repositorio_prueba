@@ -28,10 +28,10 @@ Given the most popular trends we are going to identify the top ones and from the
   - Libraries: tweepy and from this library we also use OAuthHandler and Stream. From tweepy.streaming we used StreamListener the other libraries are twitter, json, datetime, pandas, flask, mysql connectors and matplotlib.
   
 ## General system architecture.
-- Data source : Twitter API.
-- Main processing: Pyhton, Tweepy, Json, Pandas, Numpy, Matplotlib.
-- Visualization: Matplotlib, HTML5, Flask, Jinja2.
-- Web
+- **Data source:** Twitter API.
+- **Main processing:** Pyhton, Tweepy, Json, Pandas, Numpy, Matplotlib.
+- **Visualization:** Matplotlib.
+- **Web:** Flask, HTML5, Jinja2.
 
 ## Data source.
 Our data source is the Twitter API, from there we are going to obtain the necessary data form the daily trends and tweets.
