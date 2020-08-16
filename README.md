@@ -25,7 +25,7 @@ Given the most popular trends we are going to identify the top ones and from the
   - Twitter API.
   - PHPMyAdmin for the MySQL database.
   - http server.
-  - Libraries: tweepy and from this library we also use OAuthHandler and Stream. From tweepy.streaming we used StreamListener the other libraries are twitter, json, datetime, pandas, flask, mysql connectors and matplotlib.
+  - Libraries: tweepy and from this library we also use OAuthHandler and Cursor. From tweepy.cursor we used api.search the other libraries are twitter, json, pickle, datetime, pandas, flask, mysql connectors and matplotlib.
   
 ## General system architecture.
 - **Data source:** Twitter API.
