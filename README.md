@@ -60,8 +60,13 @@ Our data source is the Twitter API, from there we are going to obtain the necess
 - Database
   - import [database](Proyecto1.0/database/)(this is in Proyecto1.0/database/), we are going to work with the table "publications"<br/>
   **Table structure**<br/>
-  ![Database structure](Resources/db.JPG)
-  #### To update data and create graphics:
-    -  Run: `python3 main.py`
+  ![databasestructure](Resources/db.JPG)
+  #### Use.
+  Once you are in the correct directory ("Proyecto1.0") you just have to run it.
+  - `/.run.sh -a` to run all modules.
+  Or you can run the 3 modules by separate.
+  - `/.run.sh -o` this module gets the data.
+  - `/.run.sh -u` this module update the database.
+  - `/.run.sh -p` this module processes the data and makes the graphics.
   #### To deploy web service in localhost:
     -  Run: `python3 web.py`
