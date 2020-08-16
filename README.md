@@ -70,4 +70,6 @@ Our data source is the Twitter API, from there we are going to obtain the necess
   - `/.run.sh -u` this module update the database.
   - `/.run.sh -p` this module processes the data and makes the graphics.
   #### To deploy web service in localhost:
+  Once all processes are finished
     -  Run `python3 web.py`
+   And you would be able to see the web page
