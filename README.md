@@ -58,7 +58,9 @@ Our data source is the Twitter API, from there we are going to obtain the necess
   -  Insert your database keys inside.
   -  Save and close.
 - Database
-  - import [database](Proyecto1.0/database/)(this is in Proyecto1.0/database/)
+  - import [database](Proyecto1.0/database/)(this is in Proyecto1.0/database/), we are going to work with the table "publications"<br/>
+  **Table structure**<br/>
+  ![Database structure](Resources/db.JPG)
   #### To update data and create graphics:
     -  Run: `python3 main.py`
   #### To deploy web service in localhost:
