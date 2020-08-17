@@ -97,3 +97,6 @@ This graphic shows a comparative of the number of retweets and favorites that th
  - **Followers**<br/>
 ![followers](Resources/follow.JPG)<br/>
 This graphic show the number of followers that the account that tweeted the most popular tweet has.
+
+## Conclusions.
+We view this projetc as a little seed, to this moment we think that the information we are getting from it is very useful and it tell us the different metrics form wich we can study the tweets and the most popular ones. We believe that there is plenty of opportunity in this project to grow to make a bigger appliction and a more sofisticated one, that provides more useful and valuable information about the tweets, the trending tweets, the trends themselves and the accounts where these tweets are being tweeted from.
