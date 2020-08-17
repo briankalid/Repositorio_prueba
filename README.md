@@ -12,7 +12,7 @@ We want to study the type of tweets that the users are obtaining the news/infoma
 <br/><br/>
 Given the most popular trends we are going to identify the top ones and from them we will locate the most popular tweet or tweets based on the impressions (retweets and likes), so we can know the amount of impressions are nedeed for a tweet to go viral or ve catalogued as popular, we want to know if there is a pattern in the number of impressions and the type of account the has the most popular tweet. Appart from the impressions we also want to know the amount of followers that the account of the tweet has, and see if there is a pattern in the number of followers or if it does not matter at all. Aditionally we want to know the differnt sources of the tweets where they have been tweeted from and from it see if the most popular tweets are coming from desktop computers or mobile devices.<br/>
 
-## General goals
+## General goals.
   - Get the daily data from Twitter.
   - Locate the most popular trends of the day.
   - Get the most popular tweet or tweets, based mainly in the amount of impressions.
@@ -20,7 +20,7 @@ Given the most popular trends we are going to identify the top ones and from the
   - Make the graphs based on the characteristics of the top tweets. 
   - Make this process automatically, and show it in the web.
   
-## Software tools
+## Software tools.
   - Python3.
   - Twitter API.
   - PHPMyAdmin for the MySQL database (we use remote mysql but you could use local database).
@@ -37,7 +37,7 @@ Given the most popular trends we are going to identify the top ones and from the
 Our data source is the Twitter API, from there we are going to obtain the necessary data form the daily trends and tweets.
 
 ## Instructions and use.
-### Install requirements
+### Install requirements.
 #### Requires python3 (tested on python 3.8)
 - **Libraries**
   -  `sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev`.
@@ -50,7 +50,7 @@ Our data source is the Twitter API, from there we are going to obtain the necess
   -  `sudo apt-get install nano`
   -  `pip3 install flask_mysqldb`
   -  `pip3 install mysql-connector`
-### Setup
+### Setup.
 - Open a terminal into folder project.
   -  `nano secret.py`<br/>
     Insert your keys inside.
@@ -79,3 +79,4 @@ Our data source is the Twitter API, from there we are going to obtain the necess
   #### To deploy web service in localhost:
   Once all processes are finished.
     -  Run `python3 web.py`
+## Graphics.
