@@ -85,14 +85,14 @@ Our data source is the Twitter API, from there we are going to obtain the necess
 When everything its done in the web page you will se these graphics.<br/>
  - **Favorites and Retweets**<br/>
 ![favs](Resources/favsbueno.png)<br/>
-![rts](Resources/retsbueno.png)<br/>
+![rts](Resources/rtsbueno.png)<br/>
 These two graphics show how the favorites and retweets are distributed.
 
  - **Source**<br/>
  ![source](Resources/source.JPG)<br/>
  This graphic shows where the tweets are being tweeted from. It show the name of the source and how many tweets have been tweeted from them.
  - **Interactions**<br/>
-![interactions](Resources/favsrtsss.JPG)<br/>
+![interactions](Resources/favsrtsss.png)<br/>
 This graphic shows a comparative of the number of retweets and favorites that the most popular tweet has. Here we can see how theese two interactions behave.
  - **Followers**<br/>
 ![followers](Resources/follow.JPG)<br/>
