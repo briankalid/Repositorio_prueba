@@ -191,7 +191,7 @@ def create_graphic_sources():
                  str(round((i.get_width()), 2)),
                  fontsize = 10, fontweight ='bold',
                  color ='grey')
-    ax.set_title('From wich source we are obtaining the most popular tweets',
+    ax.set_title('From which source we are obtaining the most popular tweets',
                  loc ='left', )
 
     plt.savefig('static/img/sources.png')

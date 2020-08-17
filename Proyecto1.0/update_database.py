@@ -58,7 +58,7 @@ def update(trending,publications):
                     print('\033[0;31m'+str(e)+'\n'+'\033[0;m')
                     pass
                 bar2.next()
-        print('\033[0;32m'+'Database update completed'+'\n'+'\033[0;m')
+        print('\n'+'\033[0;32m'+'Database update completed'+'\n'+'\033[0;m')
 
         cnx.close()
         cursor.close()
