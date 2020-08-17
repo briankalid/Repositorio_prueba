@@ -226,7 +226,7 @@ def create_graphic_favsandrts():
         favs[i] = int(favs[i])
 
 
-    plt.figure()
+    plt.figure(figsize=(11,8))
     x = np.arange(len(rts))
     y = np.array(rts)
     x1=np.arange(len(favs))
