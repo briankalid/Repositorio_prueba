@@ -41,7 +41,6 @@ Our data source is the Twitter API, from there we are going to obtain the necess
 #### Requires python3 (tested on python 3.8)
 - **Libraries**
   -  `sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev`
-  -  `sudo apt install mysql-server`
   -  `pip3 install progress`
   -  `pip3 install twitter`
   -  `pip3 install tweepy`
@@ -100,4 +99,4 @@ This graphic shows a comparative of the number of retweets and favorites that th
 This graphic show the number of followers that the account that tweeted the most popular tweet has.
 
 ## Conclusions.
-We view this projetc as a little seed, to this moment we think that the information we are getting from it is very useful and it tell us the different metrics form wich we can study the tweets and the most popular ones. We believe that there is plenty of opportunity in this project to grow to make a bigger appliction and a more sofisticated one, that provides more useful and valuable information about the tweets, the trending tweets, the trends themselves and the accounts where these tweets are being tweeted from.
+We view this projetc as a little seed, to this moment we think that the information we are getting from it is very useful and it tell us the different metrics form wich we can study the tweets and the most popular ones. We believe that there is plenty of opportunity in this project to grow to make a bigger appliction and a more sofisticated one that provides more useful and valuable information about the tweets, the trending tweets, the trends themselves and the accounts where these tweets are being tweeted from.
