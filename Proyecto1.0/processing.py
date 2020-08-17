@@ -230,7 +230,7 @@ def create_graphic_favsandrts():
     plt.xticks(x,date, rotation=270)
     plt.plot(x, y,label='Retweets',color='blue')
     plt.plot(x1, y1,label='Favorites',color='red')
-    plt.suptitle('Comparison of the number of likes and retweets of the tweet with more interactions')
+    plt.suptitle('Comparison of the number of likes and retweets of the tweet \n with more interactions')
     plt.legend()
     # plt.show()
     plt.savefig('static/img/favsandrts.png')
