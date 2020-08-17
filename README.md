@@ -100,7 +100,8 @@ This graphic show the number of followers that the account that tweeted the most
 
 ## Conclusions.
 We view this project as a little seed, to this moment we think that the information we are getting from it is very useful and it tell us the different metrics form wich we can study the tweets and the most popular ones. We believe that there is plenty of opportunity in this project to grow to make a bigger appliction and a more sofisticated one that provides more useful and valuable information about the tweets, the trending tweets, the trends themselves and the accounts where these tweets are being tweeted from.
-##Bibliography.
+
+## Bibliography.
   - Data source [Twitter API](https://developer.twitter.com/en)
   - To get the data [Tweepy Documentation](https://tweepy.readthedocs.io/en/v3.5.0/index.html#)
   - Visualize Web [Flask Documentation](https://flask.palletsprojects.com/en/1.1.x/)
