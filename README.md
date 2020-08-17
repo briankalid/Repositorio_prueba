@@ -95,5 +95,5 @@ These two graphics show how the favorites and retweets are distributed.
 ![interactions](Resources/interactions.JPG)<br/>
 This graphic shows a comparative of the number of retweets and favorites that the most popular tweet has. Here we can see how theese two interactions behave.
  - **Followers**<br/>
-![followers](Resources/follow.png)<br/>
+![followers](Resources/follow.JPG)<br/>
 This graphic show the number of followers that the account that tweeted the most popular tweet has.
