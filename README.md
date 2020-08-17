@@ -82,6 +82,11 @@ Our data source is the Twitter API, from there we are going to obtain the necess
     -  Then in your browser you just need to type *localhost:5000* to access to the web page.
 ## Graphics.
 When everything its done in the web page you will se these graphics.<br/>
+ - **Favorites and Retweets**<br/>
+![favs](Resources/fav.png)<br/>
+![rts](Resources/retweets.png)<br/>
+This graphic shows a comparative of the number of retweets and favorites that the top tweet has. Here we can see how theese two interactions behave.<br/>
+
  - **Interactions**<br/>
 ![interactions](Resources/interactions.JPG)<br/>
 This graphic shows a comparative of the number of retweets and favorites that the top tweet has. Here we can see how theese two interactions behave.<br/>
