@@ -50,7 +50,7 @@ def obtain_publications():
         tweets=tweepy.Cursor(api.search,q=trend,lang="es",result_type="popular").items()
         for tweet in tweets:
             tmp.append(tweet._json)
-            print(tmp)
+            # print(tmp)
         tweets_list.append(tmp)
         with open('tweets.pickle','wb') as file:
             pickle.dump(tweets_list, file)

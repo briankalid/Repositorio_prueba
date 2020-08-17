@@ -54,17 +54,17 @@ def create_urls(user,id_u):
 def main():
     #Here we get the data that we need from the json file
 
-    for publication in publications:
-        if len(publication)>0:
-            idd.append(publication[0][0])
-            num_retweets.append(publication[0][6])
-            num_favorites.append(publication[0][7])
-            handler.append(publication[0][2])
-            seguidores.append(publication[0][4])
-            verificado.append(publication[0][5])
-            sources.append(publication[0][8])
+    for trend in publications:
+        for publication in trend:
+            if len(publication)>0:
+                idd.append(publication[0])
+                num_retweets.append(int(publication[6]))
+                num_favorites.append(int(publication[7]))
+                handler.append(publication[2])
+                seguidores.append(int(publication[4]))
+                verificado.append(publication[5])
+                sources.append(publication[8])
 
-    print(sources)
 
     rt_sorted=(sorted(num_retweets))
     mean_of_retweets=np.mean(num_retweets)
