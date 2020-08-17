@@ -79,4 +79,5 @@ Our data source is the Twitter API, from there we are going to obtain the necess
   #### To deploy web service in localhost:
   Once all processes are finished.
     -  Run `python3 web.py`
+    -  Then in your browser you just need to type *localhost:5000* to access to the web page.
 ## Graphics.
