@@ -81,3 +81,11 @@ Our data source is the Twitter API, from there we are going to obtain the necess
     -  Run `python3 web.py`
     -  Then in your browser you just need to type *localhost:5000* to access to the web page.
 ## Graphics.
+When everything its done in the web page you will se these graphics.<br/>
+ - **Interactions**<br/>
+![interactions](Resources/interactions.JPG)<br/>
+This graphic shows a comparative of the number of retweets and favorites that the top tweet has. Here we can see how theese two interactions behave.<br/>
+<br/>
+ - **Source**<br/>
+ ![source](Resources/source.JPG)<br/>
+
