@@ -85,7 +85,6 @@ When everything its done in the web page you will se these graphics.<br/>
  - **Interactions**<br/>
 ![interactions](Resources/interactions.JPG)<br/>
 This graphic shows a comparative of the number of retweets and favorites that the top tweet has. Here we can see how theese two interactions behave.<br/>
-<br/>
  - **Source**<br/>
  ![source](Resources/source.JPG)<br/>
-
+ This graphic shows where the tweets are being tweeted from. It shows the different sources and how many times the top tweet was tweeted from any of them.
