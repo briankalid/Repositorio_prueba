@@ -52,13 +52,13 @@ Our data source is the Twitter API, from there we are going to obtain the necess
   -  `pip3 install mysql-connector`
 ### Setup
 - Open a terminal into folder project.
-  -  `nano secret.py`
-  -  Insert your keys inside.
-  -  `nano db.json.`
-  -  Insert your database keys inside.
+  -  `nano secret.py`<br/>
+    Insert your keys inside.
+  -  `nano db.json.`<br/>
+    Insert your database keys inside.
   -  Save and close.
 - Database
-  - import [database](Proyecto1.0/database/)(this is in Proyecto1.0/database/), we are going to work with the table "publications"<br/><br>
+  - Import [database](Proyecto1.0/database/)(this is in Proyecto1.0/database/), we are going to work with the table "publications"<br/><br>
   - To import database:<br><br>
   You need have a database created<br>
   `mysql -u username -p mydatabase < RouzZmPKSN.sql`<br><br>
