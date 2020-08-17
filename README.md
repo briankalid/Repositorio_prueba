@@ -41,6 +41,7 @@ Our data source is the Twitter API, from there we are going to obtain the necess
 #### Requires python3 (tested on python 3.8)
 - **Libraries**
   -  `sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev`.
+  -  `pip3 install progress`
   -  `pip3 install twitter`
   -  `pip3 install tweepy`
   -  `pip3 install flask`
