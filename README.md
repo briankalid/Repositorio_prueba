@@ -40,7 +40,8 @@ Our data source is the Twitter API, from there we are going to obtain the necess
 ### Install requirements.
 #### Requires python3 (tested on python 3.8)
 - **Libraries**
-  -  `sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev`.
+  -  `sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev`
+  -  `sudo apt install mysql-server`
   -  `pip3 install progress`
   -  `pip3 install twitter`
   -  `pip3 install tweepy`
@@ -59,7 +60,7 @@ Our data source is the Twitter API, from there we are going to obtain the necess
     Insert your database keys inside.
   -  Save and close.
 - Database
-  - Import [database](Proyecto1.0/database/)(this is in Proyecto1.0/database/), we are going to work with the table "publications"<br/><br>
+  - Import [database](Proyecto1.0/database/)(this is in Proyecto1.0/database/), we are going to work with the table "publications".<br/><br>
   - To import database:<br><br>
   You need have a database created<br>
   `mysql -u username -p mydatabase < RouzZmPKSN.sql`<br><br>
