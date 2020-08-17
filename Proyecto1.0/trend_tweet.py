@@ -5,6 +5,10 @@ from datetime import date
 import secret
 import json
 import pickle
+
+from progress.bar import ChargingBar
+
+bar2 = ChargingBar('Data:', max=30)
 #Insert your keys
 consumer_key = secret.consumer_key()
 consumer_secret = secret.consumer_secret()
@@ -51,11 +55,12 @@ def obtain_publications():
         for tweet in tweets:
             tmp.append(tweet._json)
             # print(tmp)
+        bar2.next()
         tweets_list.append(tmp)
         with open('tweets.pickle','wb') as file:
             pickle.dump(tweets_list, file)
             file.close()
-
+    bar2.finish()
 
 obtain_trends()
 obtain_publications()

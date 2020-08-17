@@ -4,6 +4,10 @@ import json
 import pickle
 import re
 
+from progress.bar import ChargingBar
+
+
+
 def create_urls(user,id_u):
     return("https://twitter.com/"+user+"/status/"+id_u)
 
@@ -21,7 +25,7 @@ def update(trending,publications):
             for publication in publications[trend]:
                 # publication = json.load(publication)
                 # print(publication)
-                print('\033[0;34m'+trending[trend],'\033[0;37m'+'====','\033[0;m'+publication['text'])
+                print('\n'+'\033[0;34m'+trending[trend],'\033[0;37m'+'====','\033[0;m'+publication['text']+'\033[0;m')
                 Trend = trending[trend]
                 User = publication['user']['screen_name']
                 id_str = publication['id_str']
@@ -49,14 +53,16 @@ def update(trending,publications):
                     query = ("""INSERT INTO publications (id,trend,user,url_pub,followers_count,verified,retweet_count,favorite_count,source) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)""")
                     cursor.execute(query,(id_str,Trend,User,URL,Followers,Verified,Retweets,Favorite,Source))
                     cnx.commit()
-                    print('\033[0;32m'+'This record was uploaded'+'\n')
+                    print('\033[0;32m'+'This record was uploaded'+'\n'+'\033[0;m')
                 except (mysql.connector.Error,mysql.connector.Warning) as e:
-                    print('\033[0;31m'+str(e)+'\n')
+                    print('\033[0;31m'+str(e)+'\n'+'\033[0;m')
                     pass
+                bar2.next()
         print('\033[0;32m'+'Database update completed'+'\n'+'\033[0;m')
 
         cnx.close()
         cursor.close()
+        bar2.finish()
         return(trending,publications)
 
     except mysql.connector.Error as err:
@@ -72,6 +78,12 @@ publications = []
 with open('tweets.pickle','rb') as file:
     publications=pickle.load(file)
     file.close()
+
+count=0
+for t in publications:
+    for p in t:
+        count+=1
+bar2 = ChargingBar('\033[0;32m'+'Update:', max=count)
 
 trending = []
 with open('trending.dat','r') as file:
