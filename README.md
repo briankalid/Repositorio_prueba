@@ -90,8 +90,7 @@ These two graphics show how the favorites and retweets are distributed.
 
  - **Source**<br/>
  ![source](Resources/source.JPG)<br/>
- This graphic shows where the tweets are being tweeted from. It shows the different sources and how many times the most popular tweet was tweeted from any of them.
-
+ This graphic shows where the tweets are being tweeted from. It show the name of the source and how many tweets have been tweeted from them.
  - **Interactions**<br/>
 ![interactions](Resources/interactions.JPG)<br/>
 This graphic shows a comparative of the number of retweets and favorites that the most popular tweet has. Here we can see how theese two interactions behave.
