@@ -20,7 +20,7 @@ Given the most popular trends we are going to identify the top ones and from the
   - Make the graphs based on the characteristics of the top tweets. 
   - Make this process automatically, and show it in the web.
   
-## Software tools.
+## Requirements.
   - Python3.
   - Twitter API.
   - PHPMyAdmin for the MySQL database (we use remote mysql but you could use local database).
@@ -36,12 +36,11 @@ Given the most popular trends we are going to identify the top ones and from the
 ## Data source.
 Our data source is the Twitter API, from there we are going to obtain the necessary data form the daily trends and tweets.
 
-## Instructions and use.
+## Instructions.
 ### Install requirements.
 #### Requires python3 (tested on python 3.8)
 - **Libraries**
   -  `sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev`.
-  -  `pip3 install progress`
   -  `pip3 install twitter`
   -  `pip3 install tweepy`
   -  `pip3 install flask`
